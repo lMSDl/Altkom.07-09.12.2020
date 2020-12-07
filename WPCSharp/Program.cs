@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WPCSharp.DesignPatterns.Creational.Builder;
 
 namespace WPCSharp
 {
@@ -10,7 +11,7 @@ namespace WPCSharp
     {
         static void Main(string[] args)
         {
-            WPCSharp.DesignPatterns.Creational.Client.Execute();
+            Client.Execute();
             Console.ReadLine();
         }
     }

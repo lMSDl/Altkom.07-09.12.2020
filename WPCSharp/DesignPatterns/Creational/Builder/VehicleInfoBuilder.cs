@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WPCSharp.DesignPatterns.Creational
+namespace WPCSharp.DesignPatterns.Creational.Builder
 {
     public class VehicleInfoBuilder : IVehicleBuilder<string>
     {
