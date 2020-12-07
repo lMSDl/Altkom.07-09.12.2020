@@ -20,15 +20,20 @@ namespace WPCSharp.DesignPrinciples
             return Customers.SingleOrDefault(x => x.AllowedDebit == allowedDebit);
         }
 
+        public PaymentAccount FindById(int id)
+        {
+            return Customers.SingleOrDefault(x => x.Id == id);
+        }
+
         public bool Charge(int customerId, float amount)
         {
-            var customer = Customers.SingleOrDefault(x => x.Id == customerId);
+            var customer = FindById(customerId);
             if (customer == null)
             {
                 return false;
             }
 
-            if (customer.Incomes - customer.Outcomes + customer.AllowedDebit < amount)
+            if (GetBalance(customerId) + customer.AllowedDebit < amount)
             {
                 return false;
             }
@@ -39,7 +44,7 @@ namespace WPCSharp.DesignPrinciples
 
         public void Fund(int customerId, float amount)
         {
-            var customer = Customers.Where(x => x.Id == customerId).SingleOrDefault();
+            var customer = FindById(customerId);
             if (customer == null)
             {
                 return;
@@ -50,7 +55,7 @@ namespace WPCSharp.DesignPrinciples
 
         public float? GetBalance(int customerId)
         {
-            var customer = Customers.Where(x => x.Id == customerId).SingleOrDefault();
+            var customer = FindById(customerId);
             return customer?.Incomes - customer?.Outcomes;
         }
     }
