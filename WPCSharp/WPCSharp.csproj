@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\Creational\Client.cs" />
+    <Compile Include="DesignPatterns\Creational\IVehicleBuilder.cs" />
+    <Compile Include="DesignPatterns\Creational\VahicleBuilder.cs" />
+    <Compile Include="DesignPatterns\Creational\Vehicle.cs" />
+    <Compile Include="DesignPatterns\Creational\VehicleInfoBuilder.cs" />
     <Compile Include="DesignPrinciples\CustomersService.cs" />
     <Compile Include="DesignPrinciples\Customer.cs" />
     <Compile Include="DesignPrinciples\PaymentAccount.cs" />
