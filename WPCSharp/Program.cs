@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPCSharp.DesignPatterns.Creational.AbstractFactory;
+using WPCSharp.DesignPatterns.Creational.Prototype;
 
 namespace WPCSharp
 {

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,6 +65,8 @@
     <Compile Include="DesignPatterns\Creational\FactoryMethod\ElevatorGoTo.cs" />
     <Compile Include="DesignPatterns\Creational\FactoryMethod\ElevatorUp.cs" />
     <Compile Include="DesignPatterns\Creational\FactoryMethod\IElevatorOperation.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Client.cs" />
+    <Compile Include="DesignPatterns\Creational\Prototype\Person.cs" />
     <Compile Include="DesignPrinciples\CustomersService.cs" />
     <Compile Include="DesignPrinciples\Customer.cs" />
     <Compile Include="DesignPrinciples\PaymentAccount.cs" />
@@ -77,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
