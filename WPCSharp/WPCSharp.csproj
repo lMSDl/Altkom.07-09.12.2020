@@ -54,6 +54,7 @@
     <Compile Include="SOLID\II_OCP.cs" />
     <Compile Include="SOLID\IV_ISP.cs" />
     <Compile Include="SOLID\I_SRP.cs" />
+    <Compile Include="SOLID\V_DIP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
