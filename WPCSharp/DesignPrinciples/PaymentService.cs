@@ -18,29 +18,12 @@ namespace WPCSharp.DesignPrinciples
         public bool Charge(int customerId, float amount)
         {
             var customer = FindById(customerId);
-            if (customer == null)
-            {
-                return false;
-            }
-
-            if (GetBalance(customerId) + customer.AllowedDebit < amount)
-            {
-                return false;
-            }
-
-            customer.Outcomes += amount;
-            return true;
+            return customer?.Charge(amount) ?? false;
         }
 
         public void Fund(int customerId, float amount)
         {
-            var customer = FindById(customerId);
-            if (customer == null)
-            {
-                return;
-            }
-
-            customer.Incomes += amount;
+            FindById(customerId)?.Fund(amount);
         }
 
         public float? GetBalance(int customerId)
