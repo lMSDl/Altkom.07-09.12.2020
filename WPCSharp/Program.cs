@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WPCSharp.DesignPatterns.Structural.Decorator;
+using WPCSharp.DesignPatterns.Structural.Facade.I;
 
 namespace WPCSharp
 {

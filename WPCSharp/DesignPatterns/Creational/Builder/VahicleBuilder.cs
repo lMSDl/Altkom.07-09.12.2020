@@ -6,52 +6,45 @@ using System.Threading.Tasks;
 
 namespace WPCSharp.DesignPatterns.Creational.Builder
 {
-    public class VehicleBuilder : IVehicleBuilder<Vehicle>
+    public class VehicleBuilder : VehicleBuilderFacade
     {
-        private Vehicle _vehicle;
-
-        public VehicleBuilder() : this(new Vehicle())
+        public VehicleBuilder() : base()
         {
         }
 
-        public VehicleBuilder(Vehicle vehicle)
+        public VehicleBuilder(Vehicle vehicle) : base(vehicle)
         {
-            _vehicle = vehicle;
         }
 
-        public IVehicleBuilder<Vehicle> SetDoors(int value)
+        public VehicleBuilder SetDoors(int value)
         {
             _vehicle.Doors = value;
             return this;
         }
 
-        public IVehicleBuilder<Vehicle> SetEnginePower(int? value)
+        public VehicleBuilder SetEnginePower(int? value)
         {
             _vehicle.EnginePower = value;
             return this;
         }
 
-        public IVehicleBuilder<Vehicle> SetSeats(int value)
+        public VehicleBuilder SetSeats(int value)
         {
             _vehicle.Seats = value;
             return this;
         }
 
-        public IVehicleBuilder<Vehicle> SetTrunkCapacity(int? value)
+        public VehicleBuilder SetTrunkCapacity(int? value)
         {
             _vehicle.TrunkCapacity = value;
             return this;
         }
 
-        public IVehicleBuilder<Vehicle> SetWheels(int value)
+        public VehicleBuilder SetWheels(int value)
         {
             _vehicle.Wheels = value;
             return this;
         }
 
-        public Vehicle Build()
-        {
-            return _vehicle;
-        }
     }
 }

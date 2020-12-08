@@ -42,6 +42,10 @@ namespace WPCSharp.DesignPatterns.Creational.Builder
         public int? TrunkCapacity { get; set; }
         public int? EnginePower { get; set; }
 
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public DateTime ProductionDate { get; set; }
+
         public override string ToString()
         {
             return $"Obiekt ma {Wheels} kół, {Seats} siedzeń, {Doors} drzwi" + (TrunkCapacity.HasValue ? $", pojemność bagażnika {TrunkCapacity}" : "") + (EnginePower.HasValue ? $", moc silnika {EnginePower}HP" : "");
