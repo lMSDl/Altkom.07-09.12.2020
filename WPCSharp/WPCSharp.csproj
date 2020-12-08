@@ -72,6 +72,14 @@
     <Compile Include="DesignPatterns\Creational\Prototype\Person.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton\Client.cs" />
     <Compile Include="DesignPatterns\Creational\Singleton\Context.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\Client.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\DbPeropleService.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\DbPersonServiceAdapter.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\DbPersonToPersonAdapter.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\IperopleService.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\IPerson.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\Person.cs" />
+    <Compile Include="DesignPatterns\Structural\Adapter\II\DbPerson.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\I\Circle.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\I\Client.cs" />
     <Compile Include="DesignPatterns\Structural\Adapter\I\ICircle.cs" />
