@@ -132,6 +132,10 @@
     <Compile Include="DesignPatterns\Structural\Facade\I\Client.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\I\JsonConvertFacade.cs" />
     <Compile Include="DesignPatterns\Structural\Facade\I\Person.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\Car.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\CarFlyweight.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\CarFlyweightFactory.cs" />
+    <Compile Include="DesignPatterns\Structural\Flyweight\Client.cs" />
     <Compile Include="DesignPrinciples\CustomersService.cs" />
     <Compile Include="DesignPrinciples\Customer.cs" />
     <Compile Include="DesignPrinciples\PaymentAccount.cs" />
