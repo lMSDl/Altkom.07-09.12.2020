@@ -107,6 +107,11 @@
     <Compile Include="DesignPatterns\Structural\Bridge\I\RedColor.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge\I\Shape.cs" />
     <Compile Include="DesignPatterns\Structural\Bridge\I\Square.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\Client.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\Container.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\IComponent.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\Product.cs" />
+    <Compile Include="DesignPatterns\Structural\Composite\ProductBase.cs" />
     <Compile Include="DesignPrinciples\CustomersService.cs" />
     <Compile Include="DesignPrinciples\Customer.cs" />
     <Compile Include="DesignPrinciples\PaymentAccount.cs" />
