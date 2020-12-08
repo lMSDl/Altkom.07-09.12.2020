@@ -21,7 +21,7 @@ namespace WPCSharp.DesignPatterns.Structural.PrivateClassData
 
         public void Method()
         {
-            Console.WriteLine($"{_dataClass.GetAttr1()} {_dataClass.GetAttr1()}");
+            Console.WriteLine($"{_dataClass.GetAttr1()} {_dataClass.GetAttr2()}");
         }
     }
 }
