@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WPCSharp.DesignPatterns.Behavioral.ChainOfResponsibility.I
 {
-    public class BaseHandler 
+    public abstract class BaseHandler 
     {
         protected IHandler NextHander { get; }
 
