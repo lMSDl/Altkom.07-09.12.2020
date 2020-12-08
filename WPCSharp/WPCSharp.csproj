@@ -56,6 +56,15 @@
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\I\Client.cs" />
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\I\DiscountHandler.cs" />
     <Compile Include="DesignPatterns\Behavioral\ChainOfResponsibility\I\IHandler.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\Client.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\Command.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\CommandsInvokerBase.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\UndoCommandsInvoker.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\CommandsInvoker.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\Garden.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\ICommand.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\RemoveCommand.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Command\PlantCommand.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Client.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Factories.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\ICarFactory.cs" />
