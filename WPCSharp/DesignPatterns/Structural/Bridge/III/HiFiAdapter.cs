@@ -23,13 +23,14 @@ namespace WPCSharp.DesignPatterns.Structural.Bridge.III
         {
         }
 
-        public bool _powerState;
+        private bool _powerState;
         public void TogglePower()
         {
             if (_powerState)
                 _hiFi.PowerOff();
             else
                 _hiFi.PowerOn();
+            _powerState = !_powerState;
         }
 
         public void VolumeDown()
