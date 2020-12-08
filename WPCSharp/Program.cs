@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPCSharp.DesignPatterns.Structural.Flyweight;
+using WPCSharp.DesignPatterns.Structural.Proxy;
 
 namespace WPCSharp
 {
