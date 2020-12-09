@@ -105,6 +105,13 @@
     <Compile Include="DesignPatterns\Behavioral\Strategy\DivideCalcStrategy.cs" />
     <Compile Include="DesignPatterns\Behavioral\Strategy\MinusCalcStrategy.cs" />
     <Compile Include="DesignPatterns\Behavioral\Strategy\PlusCalcStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Client.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\FileService.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\DatabaseService.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\DatabaseLogger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\EmailLogger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\FileLogger.cs" />
+    <Compile Include="DesignPatterns\Behavioral\TemplateMethod\Logger.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Client.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Factories.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\ICarFactory.cs" />
