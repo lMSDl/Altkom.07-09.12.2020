@@ -85,6 +85,12 @@
     <Compile Include="DesignPatterns\Behavioral\NullObject\DebugOutput.cs" />
     <Compile Include="DesignPatterns\Behavioral\NullObject\NullOutput.cs" />
     <Compile Include="DesignPatterns\Behavioral\NullObject\Output.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Client.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Publisher.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Subscriber.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\SubscriberB.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\SubscriberA.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Observer\Unsubscibe.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Client.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Factories.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\ICarFactory.cs" />
