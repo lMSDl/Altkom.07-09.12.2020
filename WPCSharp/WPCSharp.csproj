@@ -98,6 +98,13 @@
     <Compile Include="DesignPatterns\Behavioral\State\IState.cs" />
     <Compile Include="DesignPatterns\Behavioral\State\State.cs" />
     <Compile Include="DesignPatterns\Behavioral\State\WorkingState.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\Calc.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\Client.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\ICalcStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\MultiplyCalcStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\DivideCalcStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\MinusCalcStrategy.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Strategy\PlusCalcStrategy.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Client.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\Factories.cs" />
     <Compile Include="DesignPatterns\Creational\AbstractFactory\ICarFactory.cs" />
