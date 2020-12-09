@@ -65,6 +65,9 @@
     <Compile Include="DesignPatterns\Behavioral\Command\ICommand.cs" />
     <Compile Include="DesignPatterns\Behavioral\Command\RemoveCommand.cs" />
     <Compile Include="DesignPatterns\Behavioral\Command\PlantCommand.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\Buffer.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\BufferIterator.cs" />
+    <Compile Include="DesignPatterns\Behavioral\Iterator\Client.cs" />
     <Compile Include="DesignPatterns\Behavioral\NullObject\Client.cs" />
     <Compile Include="DesignPatterns\Behavioral\NullObject\ConsoleOutput.cs" />
     <Compile Include="DesignPatterns\Behavioral\NullObject\DebugOutput.cs" />
