@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPCSharp.DesignPatterns.Behavioral.Mediator;
+using WPCSharp.DesignPatterns.Behavioral.Memento;
 
 namespace WPCSharp
 {
