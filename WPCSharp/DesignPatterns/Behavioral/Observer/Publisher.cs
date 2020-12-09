@@ -38,13 +38,10 @@ namespace WPCSharp.DesignPatterns.Behavioral.Observer
 
         private void Notify()
         {
-            Task.Run(() =>
-            {
                 if (Index >= 0)
-                    _observers.ToList().ForEach(x => x.OnNext(Index));
+                    _observers.ToList().ForEach(x => Task.Run(() => x.OnNext(Index)));
                 else
                     _observers.ToList().ForEach(x => x.OnError(new IndexOutOfRangeException(Index.ToString())));
-            });
         }
 
         public void Dispose()
